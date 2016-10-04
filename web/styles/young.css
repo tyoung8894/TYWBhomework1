@@ -8,3 +8,26 @@ and open the template in the editor.
     Author     : tyoung12
 */
 
+html {
+    font-family: sans-serif;
+    height:100%;
+}
+
+header {
+    text-align: center;
+}
+
+
+body {
+    width: 1500px;
+    margin: auto; 
+}
+
+.date {
+    float: right;
+}
+
+#infoheaderlist ul {
+    margin:0;
+    padding:0; 
+}
