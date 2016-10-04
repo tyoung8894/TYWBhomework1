@@ -7,11 +7,12 @@ and open the template in the editor.
     Created on : Oct 3, 2016, 8:27:06 PM
     Author     : tyoung12
 */
-
+@media only screen and (min-width: 501px) {
 html {
     font-family: sans-serif;
     width: 100%;
     height: 100%;
+    
 }
 
 header {
@@ -20,14 +21,16 @@ header {
 
 
 body {
-    width: 90%;
-    height: 100%;
-    margin: auto;
+    
 }
 
 #body {
-    width: 100%;
+    width: 90%;
     height: 100%;
+    margin-left: 5%;
+    margin-right: 20%;
+    
+    
 }
 
 .headername {
@@ -41,12 +44,71 @@ body {
     margin:0;
     padding:0;
     text-align: center;
+    margin-top: -20px;
 }
 
 #infoheaderlist ul li {
     display: inline;
-    padding: .2em 1em;
-    background-color: orange;
+    padding: .01em 0.001em;
 }
 
+.technicallist,
+.internshiplist, 
+.internshiplist2, 
+.workexperiencelist, 
+.leadershiplist, 
+.leadershiplist2 {
+    margin-top: -0.5px;
+}
+
+.educationsection,
+.technicalsection,
+.internshipsection,
+.workexperiencesection,
+.leadershipsection {
+    margin-top:-18px;
+}
+
+.softwareapplications,
+.operatingsystems {
+    margin-top: -15px;
+}
+
+.technicallist li span {
+    position:relative;
+    left: -50px;
+}
+
+}
+
+@media only screen and (max-width: 500px){
+    html {
+        font-family: none;
+      
+    }
+    
+    #body {
+        width:490px;
+    }
+    
+    body {
+        margin-left: 5%;
+    }
+    
+    #infoheaderlist ul {
+   
+    text-align: center;
+}
+
+    #infoheaderlist ul li {
+    display: inline;
+    padding: .2em 1em;
+    
+}
+
+    .headername {
+    text-align: center;
+}
+    
+}
 
